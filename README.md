@@ -75,13 +75,13 @@ Os detalhes da pontuação e todos os pesos estão em [`docs/matriz_decisao.md`]
 
 ## Autor
 
- **Professor:** Felipe Roncalli de Paula Carneiro*-*Nome:** Gabriel Augusto Bedeschi Domingos 
-**Matrícula** 241-007248
+ **Professor:** Felipe Roncalli de Paula Carneiro*-**Nome:** Gabriel Augusto Bedeschi Domingos 
+**Matrícula:** 241-007248
 
 
 
 
-##Prints
+## Prints
 
 
 <img width="580" height="477" alt="WhatsApp Image 2026-10-29 at 15 43 26 (5)" src="https://github.com/user-attachments/assets/462557c0-c4d9-4b4b-8bf1-5a71a6e85418" />
