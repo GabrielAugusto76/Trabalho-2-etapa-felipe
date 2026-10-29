@@ -69,22 +69,23 @@ Os detalhes da pontuação e todos os pesos estão em [`docs/matriz_decisao.md`]
 | 3. Gaps e roadmap | Análise de lacunas para o nível Júnior e plano de estudo | `career_expert/gaps.py` |
 | 4. Interface web | Wizard em 3 passos no Streamlit com gráficos e plano | `app.py` |
 | 5. Testes e casos limite | Personas, perfis ambíguos, empates e extremos | `tests/` |
-
-## Demonstração (prints)
-
-Os prints ficam em `docs/prints/`.
-
-| Tela | Arquivo |
-|---|---|
-| Passo 1: perfil pessoal | ![Passo 1](docs/prints/01-passo1.png) |
-| Passo 2: afinidades técnicas | ![Passo 2](docs/prints/02-passo2.png) |
-| Resultado: Top 3 e gráfico | ![Resultado](docs/prints/03-resultado.png) |
-| Plano de ação: gaps e roadmap | ![Plano de ação](docs/prints/04-plano.png) |
-| Testes automatizados | ![Testes](docs/prints/05-testes.png) |
-
 ## Observações
 - Certificações e cursos sugeridos são pontos de partida; confira preço e disponibilidade antes de contratar.
 - Para ajustar o sistema, edite o `dados/regras_carreiras.json`; não é preciso mexer no código Python.
 
 ## Autor
 **Nome:** Gabriel Augusto Bedeschi Domingos · **Professor:** Felipe Roncalli de Paula Carneiro
+**Matricula 241-007248
+
+##Prints
+<img width="580" height="477" alt="WhatsApp Image 2026-10-29 at 15 43 26 (5)" src="https://github.com/user-attachments/assets/462557c0-c4d9-4b4b-8bf1-5a71a6e85418" />
+<img width="718" height="519" alt="WhatsApp Image 2026-10-29 at 15 43 26 (3)" src="https://github.com/user-attachments/assets/bc7aaafa-56e9-477c-bef4-5e9d944cafed" />
+<img width="489" height="797" alt="WhatsApp Image 2026-10-29 at 15 43 26 (1)" src="https://github.com/user-attachments/assets/fd9fe3ea-7788-400a-b23d-c43b236d01aa" />
+<img width="363" height="569" alt="WhatsApp Image 2026-10-29 at 15 43 26 (4)" src="https://github.com/user-attachments/assets/269c5dcc-e70f-45a7-b976-713a0663b6c7" />
+<img width="319" height="797" alt="WhatsApp Image 2026-10-29 at 15 43 26 (2)" src="https://github.com/user-attachments/assets/e0585c11-730d-46d6-a09d-74b4c0875a28" />
+<img width="369" height="703" alt="WhatsApp Image 2026-10-29 at 15 43 26" src="https://github.com/user-attachments/assets/db0a7e92-1f39-4c58-bbd0-84d5d994af25" />
+
+
+
+
+
