@@ -75,7 +75,7 @@ Os detalhes da pontuação e todos os pesos estão em [`docs/matriz_decisao.md`]
 
 ## Autor
 
- **Professor:** Felipe Roncalli de Paula Carneiro*-**Nome:** Gabriel Augusto Bedeschi Domingos 
+ **Professor:** Felipe Roncalli de Paula Carneiro**Nome:** Gabriel Augusto Bedeschi Domingos 
 **Matrícula:** 241-007248
 
 
