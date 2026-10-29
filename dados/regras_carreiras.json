@@ -1,0 +1,752 @@
+{
+  "escala": {
+    "1": "Nenhuma",
+    "2": "Pouca",
+    "3": "Média",
+    "4": "Alta",
+    "5": "Muita"
+  },
+  "trilhas": {
+    "backend": {
+      "nome": "Desenvolvimento Back-end",
+      "descricao": "Lógica de servidores, APIs, regras de negócio e bancos de dados."
+    },
+    "frontend": {
+      "nome": "Desenvolvimento Front-end & UI/UX",
+      "descricao": "Interfaces web responsivas, experiência do usuário e frameworks reativos."
+    },
+    "ciencia_dados": {
+      "nome": "Ciência de Dados e Machine Learning",
+      "descricao": "Estatística, modelagem preditiva, análise de dados e inteligência artificial."
+    },
+    "eng_dados": {
+      "nome": "Engenharia de Dados",
+      "descricao": "Arquitetura de dados, pipelines (ETL/ELT) e infraestrutura para Data Lakes."
+    },
+    "ciberseguranca": {
+      "nome": "Cibersegurança (Security / Pentesting)",
+      "descricao": "Defesa cibernética, análise de vulnerabilidades, criptografia e redes seguras."
+    },
+    "devops": {
+      "nome": "DevOps & SRE",
+      "descricao": "Automação de processos, integração e entrega contínua (CI/CD) e contêineres."
+    },
+    "cloud": {
+      "nome": "Computação em Nuvem (Cloud Architecture)",
+      "descricao": "Planejamento, migração e gestão de infraestruturas escaláveis (AWS/Azure/GCP)."
+    },
+    "mobile": {
+      "nome": "Desenvolvimento Mobile",
+      "descricao": "Aplicativos para dispositivos móveis (nativo ou Flutter/React Native)."
+    },
+    "qa": {
+      "nome": "Engenharia de Qualidade e Testes (QA)",
+      "descricao": "Testes automatizados, confiabilidade de software e processos de qualidade."
+    },
+    "produto": {
+      "nome": "Gestão de Produtos (Product Management)",
+      "descricao": "Ponte entre negócio, design e desenvolvimento, métodos ágeis e priorização."
+    }
+  },
+  "perguntas": [
+    {
+      "id": "q_logica",
+      "etapa": 2,
+      "texto": "Resolver problemas com lógica e algoritmos",
+      "pesos": {
+        "backend": 3,
+        "frontend": 1,
+        "ciencia_dados": 1,
+        "eng_dados": 2,
+        "ciberseguranca": 1,
+        "devops": 1,
+        "mobile": 2,
+        "qa": 1
+      }
+    },
+    {
+      "id": "q_mat",
+      "etapa": 2,
+      "texto": "Matemática e estatística",
+      "pesos": {
+        "ciencia_dados": 3,
+        "eng_dados": 1,
+        "ciberseguranca": 1,
+        "frontend": -1
+      }
+    },
+    {
+      "id": "q_ia",
+      "etapa": 2,
+      "texto": "Criar modelos de inteligência artificial e previsões",
+      "pesos": {
+        "ciencia_dados": 3,
+        "eng_dados": -1
+      }
+    },
+    {
+      "id": "q_dados",
+      "etapa": 2,
+      "texto": "Trabalhar com grandes volumes de dados",
+      "pesos": {
+        "eng_dados": 3,
+        "ciencia_dados": 2,
+        "backend": 1
+      }
+    },
+    {
+      "id": "q_apis",
+      "etapa": 2,
+      "texto": "Construir APIs, regras de negócio e bancos de dados",
+      "pesos": {
+        "backend": 3,
+        "eng_dados": 1,
+        "mobile": 1
+      }
+    },
+    {
+      "id": "q_design",
+      "etapa": 2,
+      "texto": "Design visual e experiência do usuário",
+      "pesos": {
+        "frontend": 3,
+        "mobile": 2,
+        "produto": 1,
+        "backend": -1,
+        "eng_dados": -1,
+        "devops": -1,
+        "ciberseguranca": -1
+      }
+    },
+    {
+      "id": "q_mobile",
+      "etapa": 2,
+      "texto": "Criar aplicativos para celular",
+      "pesos": {
+        "mobile": 3,
+        "frontend": 1
+      }
+    },
+    {
+      "id": "q_infra",
+      "etapa": 2,
+      "texto": "Infraestrutura, servidores e redes",
+      "pesos": {
+        "devops": 3,
+        "cloud": 3,
+        "ciberseguranca": 2,
+        "eng_dados": 1,
+        "frontend": -1,
+        "ciencia_dados": -1,
+        "mobile": -1
+      }
+    },
+    {
+      "id": "q_automacao",
+      "etapa": 2,
+      "texto": "Automatizar tarefas repetitivas e entregas de software",
+      "pesos": {
+        "devops": 3,
+        "qa": 2,
+        "eng_dados": 2,
+        "cloud": 1
+      }
+    },
+    {
+      "id": "q_seguranca",
+      "etapa": 2,
+      "texto": "Segurança e proteção contra invasões",
+      "pesos": {
+        "ciberseguranca": 3,
+        "cloud": 1,
+        "devops": 1
+      }
+    },
+    {
+      "id": "q_nuvem",
+      "etapa": 2,
+      "texto": "Planejar arquiteturas escaláveis e custos de nuvem",
+      "pesos": {
+        "cloud": 3,
+        "devops": 2,
+        "eng_dados": 1,
+        "backend": 1
+      }
+    },
+    {
+      "id": "q_testes",
+      "etapa": 2,
+      "texto": "Testar sistemas e encontrar falhas",
+      "pesos": {
+        "qa": 3,
+        "ciberseguranca": 1,
+        "devops": 1
+      }
+    },
+    {
+      "id": "q_usuario",
+      "etapa": 3,
+      "texto": "Ver o usuário usando algo que eu criei",
+      "pesos": {
+        "frontend": 2,
+        "mobile": 2,
+        "produto": 2,
+        "backend": 1
+      }
+    },
+    {
+      "id": "q_detalhe",
+      "etapa": 3,
+      "texto": "Investigar detalhes e descobrir a causa de problemas",
+      "pesos": {
+        "qa": 2,
+        "ciberseguranca": 2,
+        "devops": 1,
+        "backend": 1
+      }
+    },
+    {
+      "id": "q_pessoas",
+      "etapa": 3,
+      "texto": "Conversar com clientes e equipes",
+      "pesos": {
+        "produto": 3,
+        "cloud": 1,
+        "frontend": 1,
+        "backend": -1,
+        "eng_dados": -1,
+        "ciberseguranca": -1
+      }
+    },
+    {
+      "id": "q_gestao",
+      "etapa": 3,
+      "texto": "Priorizar o que construir e tomar decisões de produto",
+      "pesos": {
+        "produto": 3
+      }
+    },
+    {
+      "id": "q_negocio",
+      "etapa": 3,
+      "texto": "Entender resultado de negócio e métricas",
+      "pesos": {
+        "produto": 2,
+        "ciencia_dados": 1,
+        "cloud": 1
+      }
+    },
+    {
+      "id": "q_incidentes",
+      "etapa": 3,
+      "texto": "Resolver incidentes e atuar em plantões",
+      "pesos": {
+        "devops": 2,
+        "ciberseguranca": 1,
+        "cloud": 1
+      }
+    }
+  ],
+  "ajustes": [
+    {
+      "id": "A01",
+      "descricao": "Matemática baixa pesa contra Ciência de Dados",
+      "condicoes": [
+        {
+          "pergunta": "q_mat",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "ciencia_dados",
+      "ajuste": -15
+    },
+    {
+      "id": "A02",
+      "descricao": "Pouco interesse em IA pesa contra Ciência de Dados",
+      "condicoes": [
+        {
+          "pergunta": "q_ia",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "ciencia_dados",
+      "ajuste": -10
+    },
+    {
+      "id": "A03",
+      "descricao": "Pouco interesse em design pesa contra Front-end",
+      "condicoes": [
+        {
+          "pergunta": "q_design",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "frontend",
+      "ajuste": -15
+    },
+    {
+      "id": "A04",
+      "descricao": "Pouco interesse em celular pesa contra Mobile",
+      "condicoes": [
+        {
+          "pergunta": "q_mobile",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "mobile",
+      "ajuste": -10
+    },
+    {
+      "id": "A05",
+      "descricao": "Pouco interesse em segurança pesa contra Cibersegurança",
+      "condicoes": [
+        {
+          "pergunta": "q_seguranca",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "ciberseguranca",
+      "ajuste": -15
+    },
+    {
+      "id": "A06",
+      "descricao": "Pouco interesse em infraestrutura pesa contra DevOps",
+      "condicoes": [
+        {
+          "pergunta": "q_infra",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "devops",
+      "ajuste": -10
+    },
+    {
+      "id": "A07",
+      "descricao": "Pouco interesse em infraestrutura pesa contra Cloud",
+      "condicoes": [
+        {
+          "pergunta": "q_infra",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "cloud",
+      "ajuste": -10
+    },
+    {
+      "id": "A08",
+      "descricao": "Pouco gosto por conversar com pessoas pesa contra Produto",
+      "condicoes": [
+        {
+          "pergunta": "q_pessoas",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "produto",
+      "ajuste": -15
+    },
+    {
+      "id": "A09",
+      "descricao": "Pouco interesse em testes pesa contra QA",
+      "condicoes": [
+        {
+          "pergunta": "q_testes",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "qa",
+      "ajuste": -15
+    },
+    {
+      "id": "A10",
+      "descricao": "Pouco interesse em grandes volumes de dados pesa contra Engenharia de Dados",
+      "condicoes": [
+        {
+          "pergunta": "q_dados",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "eng_dados",
+      "ajuste": -15
+    },
+    {
+      "id": "A11",
+      "descricao": "Pouco interesse em APIs e bancos pesa contra Back-end",
+      "condicoes": [
+        {
+          "pergunta": "q_apis",
+          "op": "<=",
+          "valor": 2
+        }
+      ],
+      "trilha": "backend",
+      "ajuste": -10
+    },
+    {
+      "id": "A12",
+      "descricao": "Matemática e IA altas favorecem Ciência de Dados (desempate com Eng. de Dados)",
+      "condicoes": [
+        {
+          "pergunta": "q_mat",
+          "op": ">=",
+          "valor": 4
+        },
+        {
+          "pergunta": "q_ia",
+          "op": ">=",
+          "valor": 4
+        }
+      ],
+      "trilha": "ciencia_dados",
+      "ajuste": 8
+    },
+    {
+      "id": "A13",
+      "descricao": "Dados altos com pouca IA favorecem Engenharia de Dados (desempate com Ciência de Dados)",
+      "condicoes": [
+        {
+          "pergunta": "q_dados",
+          "op": ">=",
+          "valor": 4
+        },
+        {
+          "pergunta": "q_ia",
+          "op": "<=",
+          "valor": 3
+        }
+      ],
+      "trilha": "eng_dados",
+      "ajuste": 8
+    },
+    {
+      "id": "A14",
+      "descricao": "Infraestrutura alta com interesse em nuvem favorece Cloud (desempate com DevOps)",
+      "condicoes": [
+        {
+          "pergunta": "q_infra",
+          "op": ">=",
+          "valor": 4
+        },
+        {
+          "pergunta": "q_nuvem",
+          "op": ">=",
+          "valor": 4
+        }
+      ],
+      "trilha": "cloud",
+      "ajuste": 6
+    },
+    {
+      "id": "A15",
+      "descricao": "Infraestrutura alta com automação favorece DevOps (desempate com Cloud)",
+      "condicoes": [
+        {
+          "pergunta": "q_infra",
+          "op": ">=",
+          "valor": 4
+        },
+        {
+          "pergunta": "q_automacao",
+          "op": ">=",
+          "valor": 4
+        }
+      ],
+      "trilha": "devops",
+      "ajuste": 6
+    }
+  ],
+  "competencias": {
+    "logica_programacao": {
+      "nome": "Lógica de programação",
+      "horas": 40
+    },
+    "git": {
+      "nome": "Git e GitHub",
+      "horas": 15
+    },
+    "python": {
+      "nome": "Python",
+      "horas": 60
+    },
+    "javascript": {
+      "nome": "JavaScript",
+      "horas": 60
+    },
+    "sql": {
+      "nome": "SQL e bancos de dados",
+      "horas": 40
+    },
+    "api_rest": {
+      "nome": "APIs REST",
+      "horas": 40
+    },
+    "html_css": {
+      "nome": "HTML e CSS",
+      "horas": 40
+    },
+    "react": {
+      "nome": "React (ou outro framework reativo)",
+      "horas": 50
+    },
+    "figma": {
+      "nome": "Figma e prototipação",
+      "horas": 30
+    },
+    "estatistica": {
+      "nome": "Estatística básica",
+      "horas": 60
+    },
+    "pandas_numpy": {
+      "nome": "Pandas e NumPy",
+      "horas": 40
+    },
+    "machine_learning": {
+      "nome": "Machine Learning (Scikit-learn)",
+      "horas": 80
+    },
+    "etl": {
+      "nome": "Pipelines ETL/ELT",
+      "horas": 50
+    },
+    "linux": {
+      "nome": "Linux e terminal",
+      "horas": 40
+    },
+    "redes": {
+      "nome": "Redes de computadores",
+      "horas": 40
+    },
+    "docker": {
+      "nome": "Docker",
+      "horas": 30
+    },
+    "ci_cd": {
+      "nome": "CI/CD (GitHub Actions)",
+      "horas": 30
+    },
+    "iac": {
+      "nome": "Infraestrutura como código (Terraform)",
+      "horas": 40
+    },
+    "cloud_basico": {
+      "nome": "Fundamentos de nuvem (AWS/Azure/GCP)",
+      "horas": 50
+    },
+    "seguranca_basica": {
+      "nome": "Segurança básica (OWASP e criptografia)",
+      "horas": 50
+    },
+    "mobile_multiplataforma": {
+      "nome": "Flutter ou React Native",
+      "horas": 60
+    },
+    "testes_automatizados": {
+      "nome": "Testes automatizados",
+      "horas": 40
+    },
+    "metodologias_ageis": {
+      "nome": "Metodologias ágeis (Scrum/Kanban)",
+      "horas": 20
+    },
+    "priorizacao_produto": {
+      "nome": "Priorização de produto e métricas",
+      "horas": 30
+    }
+  },
+  "planos": {
+    "backend": {
+      "competencias_junior": [
+        "logica_programacao",
+        "git",
+        "python",
+        "sql",
+        "api_rest",
+        "docker"
+      ],
+      "certificacoes": [
+        "Python Institute PCEP/PCAP",
+        "AWS Certified Cloud Practitioner",
+        "Microsoft Azure Fundamentals (AZ-900)"
+      ],
+      "projetos": [
+        "API REST de loja ou biblioteca com autenticação e banco SQL",
+        "Sistema de tarefas com testes e Docker"
+      ]
+    },
+    "frontend": {
+      "competencias_junior": [
+        "html_css",
+        "git",
+        "javascript",
+        "react",
+        "figma"
+      ],
+      "certificacoes": [
+        "freeCodeCamp Responsive Web Design",
+        "Meta Front-End Developer (Coursera)",
+        "Google UX Design (Coursera)"
+      ],
+      "projetos": [
+        "Landing page responsiva",
+        "App de lista de tarefas em React",
+        "Redesign de um site com protótipo no Figma"
+      ]
+    },
+    "ciencia_dados": {
+      "competencias_junior": [
+        "python",
+        "estatistica",
+        "sql",
+        "pandas_numpy",
+        "machine_learning"
+      ],
+      "certificacoes": [
+        "Google Data Analytics (Coursera)",
+        "IBM Data Science (Coursera)",
+        "Machine Learning Specialization (DeepLearning.AI)"
+      ],
+      "projetos": [
+        "Análise exploratória de um dataset público do Kaggle",
+        "Modelo de previsão com Scikit-learn e relatório",
+        "Dashboard com os resultados da análise"
+      ]
+    },
+    "eng_dados": {
+      "competencias_junior": [
+        "python",
+        "sql",
+        "linux",
+        "etl",
+        "cloud_basico"
+      ],
+      "certificacoes": [
+        "AWS Certified Data Engineer - Associate",
+        "Databricks Data Engineer Associate",
+        "dbt Fundamentals"
+      ],
+      "projetos": [
+        "Pipeline ETL que baixa dados públicos e grava em banco",
+        "Data Lake simples com arquivos Parquet",
+        "Execução agendada do pipeline"
+      ]
+    },
+    "ciberseguranca": {
+      "competencias_junior": [
+        "linux",
+        "redes",
+        "python",
+        "seguranca_basica"
+      ],
+      "certificacoes": [
+        "CompTIA Security+",
+        "Google Cybersecurity Certificate (Coursera)",
+        "ISC2 Certified in Cybersecurity (CC)"
+      ],
+      "projetos": [
+        "Laboratório com máquinas virtuais e scan de vulnerabilidades",
+        "Desafios de CTF (Capture the Flag)",
+        "Relatório de teste de invasão em ambiente próprio para treino"
+      ]
+    },
+    "devops": {
+      "competencias_junior": [
+        "linux",
+        "git",
+        "docker",
+        "ci_cd",
+        "iac"
+      ],
+      "certificacoes": [
+        "Linux Foundation Certified System Administrator (LFCS)",
+        "HashiCorp Terraform Associate",
+        "Certified Kubernetes Administrator (CKA)"
+      ],
+      "projetos": [
+        "Pipeline CI/CD no GitHub Actions",
+        "Aplicação containerizada com Docker",
+        "Infraestrutura como código com Terraform"
+      ]
+    },
+    "cloud": {
+      "competencias_junior": [
+        "linux",
+        "redes",
+        "docker",
+        "cloud_basico",
+        "iac"
+      ],
+      "certificacoes": [
+        "AWS Certified Cloud Practitioner",
+        "AWS Solutions Architect Associate",
+        "Microsoft Azure Fundamentals (AZ-900)"
+      ],
+      "projetos": [
+        "Site e API hospedados na nuvem",
+        "Arquitetura documentada com diagrama e estimativa de custo",
+        "Migração simulada de uma aplicação"
+      ]
+    },
+    "mobile": {
+      "competencias_junior": [
+        "logica_programacao",
+        "git",
+        "api_rest",
+        "mobile_multiplataforma"
+      ],
+      "certificacoes": [
+        "Meta React Native Specialization (Coursera)",
+        "Curso de Flutter e Dart (Alura ou Udemy)"
+      ],
+      "projetos": [
+        "App de lista de tarefas com Flutter",
+        "App que consome uma API pública",
+        "App com publicação do APK para testes"
+      ]
+    },
+    "qa": {
+      "competencias_junior": [
+        "git",
+        "python",
+        "sql",
+        "metodologias_ageis",
+        "testes_automatizados"
+      ],
+      "certificacoes": [
+        "ISTQB Certified Tester Foundation Level (CTFL)",
+        "Curso de Cypress ou Playwright (Alura ou Udemy)"
+      ],
+      "projetos": [
+        "Suíte de testes automatizados para um site de demonstração",
+        "Plano de testes com casos documentados",
+        "Testes de API com Postman ou pytest"
+      ]
+    },
+    "produto": {
+      "competencias_junior": [
+        "metodologias_ageis",
+        "sql",
+        "figma",
+        "priorizacao_produto"
+      ],
+      "certificacoes": [
+        "Professional Scrum Product Owner (PSPO I)",
+        "Certified Scrum Product Owner (CSPO)",
+        "Google Project Management (Coursera)"
+      ],
+      "projetos": [
+        "Documento de produto (PRD) de um app fictício",
+        "Backlog priorizado com RICE ou MoSCoW",
+        "Protótipo no Figma com pesquisa com usuários"
+      ]
+    }
+  }
+}
