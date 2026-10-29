@@ -74,10 +74,16 @@ Os detalhes da pontuação e todos os pesos estão em [`docs/matriz_decisao.md`]
 - Para ajustar o sistema, edite o `dados/regras_carreiras.json`; não é preciso mexer no código Python.
 
 ## Autor
+
 **Nome:** Gabriel Augusto Bedeschi Domingos · **Professor:** Felipe Roncalli de Paula Carneiro
-**Matricula 241-007248
+**Matricula** 241-007248
+
+
+
 
 ##Prints
+
+
 <img width="580" height="477" alt="WhatsApp Image 2026-10-29 at 15 43 26 (5)" src="https://github.com/user-attachments/assets/462557c0-c4d9-4b4b-8bf1-5a71a6e85418" />
 <img width="718" height="519" alt="WhatsApp Image 2026-10-29 at 15 43 26 (3)" src="https://github.com/user-attachments/assets/bc7aaafa-56e9-477c-bef4-5e9d944cafed" />
 <img width="489" height="797" alt="WhatsApp Image 2026-10-29 at 15 43 26 (1)" src="https://github.com/user-attachments/assets/fd9fe3ea-7788-400a-b23d-c43b236d01aa" />
